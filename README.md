@@ -18,3 +18,7 @@ const res = calcCorrelationCoefficient(qs, list);
 console.log(res, list.length);
 await Deno.writeTextFile("test-cc.csv", CSV.stringify(res));
 ```
+
+## Reference
+
+- [相関係数の意味と求め方 - 公式と計算例](https://sci-pursuit.com/math/statistics/correlation-coefficient.html)
