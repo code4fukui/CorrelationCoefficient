@@ -1,10 +1,8 @@
 # CorrelationCoefficient
 
-> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+アンケートの設問間の相関係数を計算します。
 
-Calculates the correlation coefficient between survey questions.
-
-## Usage
+## 使い方
 
 ```js
 import { CSV } from "https://js.sabae.cc/CSV.js";
@@ -18,10 +16,10 @@ console.log(res, list.length);
 await Deno.writeTextFile("test-cc.csv", CSV.stringify(res));
 ```
 
-## Reference
+## 参考
 
-- [Meaning and calculation of correlation coefficient - formula and example](https://sci-pursuit.com/math/statistics/correlation-coefficient.html)
+- [相関係数の意味と求め方 - 公式と計算例](https://sci-pursuit.com/math/statistics/correlation-coefficient.html)
 
-## License
+## ライセンス
 
 MIT License
